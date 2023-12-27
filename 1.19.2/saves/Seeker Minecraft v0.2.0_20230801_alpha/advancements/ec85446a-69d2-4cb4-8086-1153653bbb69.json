@@ -1,0 +1,16 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2023-02-26 21:01:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:lukewarm_ocean": "2023-02-23 20:39:50 +0800",
+      "minecraft:flower_forest": "2023-02-23 20:39:35 +0800"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

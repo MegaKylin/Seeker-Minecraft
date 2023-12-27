@@ -1,0 +1,69 @@
+// ---- dimension detect ----
+/execute as @e at @s if block ~ -64 ~ minecraft:bedrock run tag @s remove Nether
+/execute as @e at @s if block ~ -64 ~ minecraft:bedrock run tag @s remove End
+/execute as @e at @s if block ~ -64 ~ minecraft:bedrock run tag @s add Overworld
+
+/execute as @e at @s if block ~ 127 ~ minecraft:bedrock run tag @s remove Overworld
+/execute as @e at @s if block ~ 127 ~ minecraft:bedrock run tag @s remove End
+/execute as @e at @s if block ~ 127 ~ minecraft:bedrock run tag @s add Nether
+
+/execute as @e at @s if block ~ 0 ~ minecraft:air if block ~ ~-2 ~ minecraft:end_stone run tag @s remove Overworld
+/execute as @e at @s if block ~ 0 ~ minecraft:air if block ~ ~-2 ~ minecraft:end_stone run tag @s remove Nether
+/execute as @e at @s if block ~ 0 ~ minecraft:air if block ~ ~-2 ~ minecraft:end_stone run tag @s add End
+
+// ---- save zone ----
+/execute as @e[type=minecraft:armor_stand,tag=SMSZ] at @s run fill ~2 ~-1 ~2 ~-2 ~-1 ~-2 minecraft:glowstone replace minecraft:air
+/execute as @e[type=minecraft:armor_stand,tag=SMSZ] at @s run fill ~2 ~-1 ~2 ~-2 ~-1 ~-2 minecraft:glowstone replace minecraft:water
+/execute as @e[type=minecraft:armor_stand,tag=SMSZ] at @s run fill ~2 ~-1 ~2 ~-2 ~-1 ~-2 minecraft:glowstone replace minecraft:lava
+/effect give @a[tag=SMT] minecraft:resistance 30 10
+/execute as @a[tag=SMT] at @s run tag @e[type=minecraft:armor_stand,tag=SMSZ,distance=..1] add Arrived
+/execute as @e[type=minecraft:armor_stand,tag=Arrived] at @s run tag @p[distance=..1] remove SMT
+
+/execute as @e[type=minecraft:armor_stand,tag=Arrived] at @s unless entity @p[distance=..8] run fill ~2 ~-1 ~2 ~-2 ~-1 ~-2 minecraft:air replace minecraft:glowstone
+/execute as @e[type=minecraft:armor_stand,tag=Arrived] at @s unless entity @p[distance=..8] run kill @s
+
+// # Overworld
+/execute as @a[tag=Overworld] at @s run execute as @p[y=-64,dy=191] at @s run tag @s add SMT
+/execute as @a[tag=Overworld,tag=SMT] at @s run summon minecraft:armor_stand ~ ~192 ~ {CustomName:"{\"text\":\"Seeker Minecraft Save Zone\"}",Tags:["SMSZ"],Rotation:[0f],Invisible:1b,NoGravity:1b,Invulnerable:1b}
+/execute as @a[tag=Overworld,tag=SMT] at @s run execute as @p at @s run tp ~ ~192 ~
+
+// # Nether
+/execute as @a[tag=Nether] at @s run execute as @p[y=0,dy=127] at @s run tag @s add SMT
+/execute as @a[tag=Nether,tag=SMT] at @s run summon minecraft:armor_stand ~ ~128 ~ {CustomName:"{\"text\":\"Seeker Minecraft Save Zone\"}",Tags:["SMSZ"],Rotation:[0f],Invisible:1b,NoGravity:1b,Invulnerable:1b}
+/execute as @a[tag=Nether,tag=SMT] at @s run execute as @p at @s run tp ~ ~128 ~
+
+// # End
+/execute as @a[tag=End] at @s run execute as @p[y=0,dy=127] at @s run tag @s add SMT
+/execute as @a[tag=End,tag=SMT] at @s run summon minecraft:armor_stand ~ ~128 ~ {CustomName:"{\"text\":\"Seeker Minecraft Save Zone\"}",Tags:["SMSZ"],Rotation:[0f],Invisible:1b,NoGravity:1b,Invulnerable:1b}
+/execute as @a[tag=End,tag=SMT] at @s run execute as @p at @s run tp ~ ~128 ~
+
+// ---- move space ----
+/execute as @a at @s run fill ~16 128 ~16 ~-16 128 ~-16 minecraft:barrier replace minecraft:air
+/execute as @a at @s run fill ~4 129 ~4 ~-4 129 ~-4 minecraft:bedrock replace minecraft:air
+// /execute as @a[tag=Nether] at @s run fill ~4 255 ~4 ~-4 255 ~-4 minecraft:bedrock replace minecraft:air
+/execute as @a at @s run fill ~4 ~4 ~4 ~-4 ~-4 ~-4 minecraft:air replace minecraft:barrier
+
+/execute as @e[type=!minecraft:player] at @s if block ~ 129 ~ minecraft:bedrock run data modify entity @s PersistenceRequired set value 1b
+
+// # Overworld
+/execute as @a[tag=Overworld] at @s run clone ~4 ~-188 ~4 ~-4 ~-196 ~-4 ~-4 ~-4 ~-4 masked move
+/execute as @a[tag=Overworld] at @s run fill ~4 ~-5 ~4 ~-4 ~-5 ~-4 minecraft:barrier replace minecraft:air
+/execute as @a[tag=Overworld] at @s run fill ~4 ~-5 ~4 ~-4 ~-5 ~-4 minecraft:barrier replace minecraft:water[level=8]
+
+/execute as @e[type=!minecraft:player,tag=Overworld] at @s if block ~ 129 ~ minecraft:bedrock run tp @s[type=!minecraft:player,tag=Overworld,y=-64,dy=191] ~ ~192 ~
+/execute as @e[type=!minecraft:player,tag=Overworld] at @s unless block ~ 129 ~ minecraft:bedrock run tp @s[type=!minecraft:player,tag=Overworld,y=128,dy=191] ~ ~-192 ~
+
+// # Nether
+/execute as @a[tag=Nether] at @s run clone ~4 ~-124 ~4 ~-4 ~-132 ~-4 ~-4 ~-4 ~-4 masked move
+/execute as @a[tag=Nether] at @s run fill ~4 ~-5 ~4 ~-4 ~-5 ~-4 minecraft:barrier replace minecraft:air
+/execute as @a[tag=Nether] at @s run fill ~4 ~-5 ~4 ~-4 ~-5 ~-4 minecraft:barrier replace minecraft:lava[level=8]
+
+/execute as @e[type=!minecraft:player,tag=Nether] at @s if block ~ 129 ~ minecraft:bedrock run tp @s[type=!minecraft:player,tag=Nether,y=0,dy=127] ~ ~128 ~
+/execute as @e[type=!minecraft:player,tag=Nether] at @s unless block ~ 129 ~ minecraft:bedrock run tp @s[type=!minecraft:player,tag=Nether,y=128,dy=127] ~ ~-128 ~
+
+// # End
+/execute as @a[tag=End] at @s run clone ~4 ~-124 ~4 ~-4 ~-132 ~-4 ~-4 ~-4 ~-4 masked move
+/execute as @a[tag=End] at @s run fill ~4 ~-5 ~4 ~-4 ~-5 ~-4 minecraft:barrier replace minecraft:air
+
+/execute as @e[type=!minecraft:player,tag=End] at @s if block ~ 129 ~ minecraft:bedrock run tp @s[type=!minecraft:player,tag=End,y=0,dy=127] ~ ~128 ~
+/execute as @e[type=!minecraft:player,tag=End] at @s unless block ~ 129 ~ minecraft:bedrock run tp @s[type=!minecraft:player,tag=End,y=128,dy=127] ~ ~-128 ~
