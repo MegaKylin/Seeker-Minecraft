@@ -1,0 +1,480 @@
+{
+    "music.seeker": {
+        "sounds": [
+            {
+                "name": "music/seeker/aduro",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/afterlife_city",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/alien_technology",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/anomaly_detected",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/battle_of_kings",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/beyond_the_stars",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/cloister_of_redemption",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/dance_of_the_pixies",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/dystopia",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/ecstatic_wave",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/electroids",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/ephemeral_reign",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/escape_from_the_temple",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/fire_within",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/gold_coast",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/incursion",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/infected_euphoria",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/leap_of_faith",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/lock_and_load",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/milkshake",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/queen_of_the_night",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/rallying_the_defense",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/september_sky",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/setting_sail",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/sexergetic",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/skirt_shaker",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/sunrise",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/the_arcade",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            },
+            {
+                "name": "music/seeker/the_end_of_mankind",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.aduro": {
+        "sounds": [
+            {
+                "name": "music/seeker/aduro",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.afterlife_city": {
+        "sounds": [
+            {
+                "name": "music/seeker/afterlife_city",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.alien_technology": {
+        "sounds": [
+            {
+                "name": "music/seeker/alien_technology",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.anomaly_detected": {
+        "sounds": [
+            {
+                "name": "music/seeker/anomaly_detected",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.battle_of_kings": {
+        "sounds": [
+            {
+                "name": "music/seeker/battle_of_kings",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.beyond_the_stars": {
+        "sounds": [
+            {
+                "name": "music/seeker/beyond_the_stars",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.cloister_of_redemption": {
+        "sounds": [
+            {
+                "name": "music/seeker/cloister_of_redemption",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.dance_of_the_pixies": {
+        "sounds": [
+            {
+                "name": "music/seeker/dance_of_the_pixies",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.dystopia": {
+        "sounds": [
+            {
+                "name": "music/seeker/dystopia",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.ecstatic_wave": {
+        "sounds": [
+            {
+                "name": "music/seeker/ecstatic_wave",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.electroids": {
+        "sounds": [
+            {
+                "name": "music/seeker/electroids",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.ephemeral_reign": {
+        "sounds": [
+            {
+                "name": "music/seeker/ephemeral_reign",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.escape_from_the_temple": {
+        "sounds": [
+            {
+                "name": "music/seeker/escape_from_the_temple",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.fire_within": {
+        "sounds": [
+            {
+                "name": "music/seeker/fire_within",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.gold_coast": {
+        "sounds": [
+            {
+                "name": "music/seeker/gold_coast",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.incursion": {
+        "sounds": [
+            {
+                "name": "music/seeker/incursion",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.infected_euphoria": {
+        "sounds": [
+            {
+                "name": "music/seeker/infected_euphoria",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.leap_of_faith": {
+        "sounds": [
+            {
+                "name": "music/seeker/leap_of_faith",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.lock_and_load": {
+        "sounds": [
+            {
+                "name": "music/seeker/lock_and_load",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.milkshake": {
+        "sounds": [
+            {
+                "name": "music/seeker/milkshake",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.queen_of_the_night": {
+        "sounds": [
+            {
+                "name": "music/seeker/queen_of_the_night",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.rallying_the_defense": {
+        "sounds": [
+            {
+                "name": "music/seeker/rallying_the_defense",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.september_sky": {
+        "sounds": [
+            {
+                "name": "music/seeker/september_sky",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.setting_sail": {
+        "sounds": [
+            {
+                "name": "music/seeker/setting_sail",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.sexergetic": {
+        "sounds": [
+            {
+                "name": "music/seeker/sexergetic",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.skirt_shaker": {
+        "sounds": [
+            {
+                "name": "music/seeker/skirt_shaker",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.streets_of_the_unknown": {
+        "sounds": [
+            {
+                "name": "music/seeker/streets_of_the_unknown",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.sunrise": {
+        "sounds": [
+            {
+                "name": "music/seeker/sunrise",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.the_arcade": {
+        "sounds": [
+            {
+                "name": "music/seeker/the_arcade",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    },
+    "music.seeker.the_end_of_mankind": {
+        "sounds": [
+            {
+                "name": "music/seeker/the_end_of_mankind",
+                "stream": true,
+                "volume": 0.5,
+                "pitch": 1.0
+            }
+        ]
+    }
+}
