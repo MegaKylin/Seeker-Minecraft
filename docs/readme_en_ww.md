@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="256px" src="icons/Seeker Minecraft Icon.png" alt="Seeker Minecraft Readme" />
+    <img width="256px" src="../icons/Seeker Minecraft Icon.png" alt="Seeker Minecraft Readme" />
     <h2 align="center">Seeker Minecraft</h2>
     <p align="center">The new "Seeker Minecraft" game mode that runs on recent versions of Minecraft! Available on [1.18+]!  </p>
 </p>
@@ -34,7 +34,7 @@
 
 <p align="center">
     Details: 
-    <a href="docs/readme_en_ww.md">English </a>
+    <a href="../docs/readme_en_ww.md">English </a>
     ·
-    <a href="docs/readme_zh_cn.md">简体中文</a>
+    <a href="../docs/readme_zh_cn.md">简体中文</a>
 </p>
