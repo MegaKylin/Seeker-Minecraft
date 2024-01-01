@@ -87,7 +87,7 @@
 ### 数据包（必要）
 
 <div>
-    <a herf="https://github.com/MegaKylin/Seeker-Minecraft/releases" >
+    <a href="https://github.com/MegaKylin/Seeker-Minecraft/releases" >
         <img src="../icons/Seeker Minecraft Data Pack Icon.png" alt="[数据包图标]" >
     </a>
 </div>
@@ -105,7 +105,7 @@
 ### 资源包（可选）
 
 <div>
-    <a herf="https://github.com/MegaKylin/Seeker-Minecraft/releases" >
+    <a href="https://github.com/MegaKylin/Seeker-Minecraft/releases" >
         <img src="../icons/Seeker Minecraft Resource Pack Icon.png" alt="[资源包图标]" >
     </a>
 </div>
