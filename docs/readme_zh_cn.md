@@ -1,46 +1,45 @@
-<p align="center">
-    <img width="256px" src="../icons/Seeker Minecraft Icon.png" alt="探索者生存介绍" />
-    <h2 align="center">探索者生存</h2>
-    <p align="center">高版本《我的世界》上的新“探索者”模式！支持 [1.18+]！ </p>
-</p>
+<div align="center">
+    <p>
+        <img width="256px" src="../icons/Seeker Minecraft Icon.png" alt="探索者生存介绍" />
+        <h2>探索者生存</h2>
+        <p>高版本《我的世界》上的新“探索者”模式！支持 [1.18+]！ </p>
+    </p>
+    <p>
+        <a href="https://github.com/MegaKylin/Seeker-Minecraft/releases">
+            <img src="https://img.shields.io/github/downloads/MegaKylin/Seeker-Minecraft/total?color=green&label=Download Releases" alt="已发布版本" />
+        </a>
+        <a href="https://github.com/MegaKylin/Seeker-Minecraft/issues">
+            <img src="https://img.shields.io/github/issues/MegaKylin/Seeker-Minecraft?color=blue&label=Issues" alt="问题" />
+        </a>
+        <a href="https://github.com/MegaKylin/Seeker-Minecraft/pulls">
+            <img src="https://img.shields.io/github/issues-pr/MegaKylin/Seeker-Minecraft?color=blue&label=Pull Requests" alt="拉取请求" />
+        </a>
+        <a href="https://github.com/MegaKylin/Seeker-Minecraft/discussions">
+            <img src="https://img.shields.io/github/discussions/MegaKylin/Seeker-Minecraft?color=blue&label=Discussions" alt="讨论" />
+        </a>
+        <a href="https://github.com/MegaKylin/Seeker-Minecraft/graphs/contributors">
+            <img  src="https://img.shields.io/github/contributors/MegaKylin/Seeker-Minecraft?color=red&label=Contributors" alt="贡献者" />
+        </a>
+    </p>
+    <p>
+        <a href="https://github.com/MegaKylin/Seeker-Minecraft/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">报告BUG</a>
+        ·
+        <a href="https://github.com/MegaKylin/Seeker-Minecraft/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">请求添加新内容</a>
+        ·
+        <a href="https://github.com/MegaKylin/Seeker-Minecraft/discussions/">常见问题</a>
+        ·
+        <a href="https://github.com/MegaKylin/Seeker-Minecraft/discussions/new?category=q-a">提出问题</a>
+    </p>
+    <p>
+        阅读更多详细信息：
+        <a href="../docs/readme_en_ww.md">English </a>
+        ·
+        <a href="../docs/readme_zh_cn.md">简体中文</a>
+    </p>
+</div>
 
-<p align="center">
-    <a href="https://github.com/MegaKylin/Seeker-Minecraft/releases">
-        <img src="https://img.shields.io/github/release/MegaKylin/Seeker-Minecraft?color=green&label=Download Releases" alt="已发布版本" />
-    </a>
-    <a href="https://github.com/MegaKylin/Seeker-Minecraft/issues">
-        <img src="https://img.shields.io/github/issues/MegaKylin/Seeker-Minecraft?color=blue&label=Issues" alt="问题" />
-    </a>
-    <a href="https://github.com/MegaKylin/Seeker-Minecraft/pulls">
-        <img src="https://img.shields.io/github/issues-pr/MegaKylin/Seeker-Minecraft?color=blue&label=Pull Requests" alt="拉取请求" />
-    </a>
-    <a href="https://github.com/MegaKylin/Seeker-Minecraft/discussions">
-        <img src="https://img.shields.io/github/discussions/MegaKylin/Seeker-Minecraft?color=blue&label=Discussions" alt="讨论" />
-    </a>
-    <a href="https://github.com/MegaKylin/Seeker-Minecraft/graphs/contributors">
-        <img  src="https://img.shields.io/github/contributors/MegaKylin/Seeker-Minecraft?color=orange&label=Contributors" alt="贡献者" />
-    </a>
-</p>
 
-<p align="center">
-    <a href="https://github.com/MegaKylin/Seeker-Minecraft/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">报告BUG</a>
-    ·
-    <a href="https://github.com/MegaKylin/Seeker-Minecraft/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">请求添加新内容</a>
-    ·
-    <a href="https://github.com/MegaKylin/Seeker-Minecraft/discussions/">常见问题</a>
-    ·
-    <a href="https://github.com/MegaKylin/Seeker-Minecraft/discussions/new?category=q-a">提出问题</a>
-</p>
-
-<p align="center">
-    详细说明：
-    <a href="../docs/readme_en_ww.md">English </a>
-    ·
-    <a href="../docs/readme_zh_cn.md">简体中文</a>
-</p>
-
-
-# 菜单
+# 目录
 
 - [简介](#简介)
 - [玩法介绍](#玩法介绍)
@@ -87,6 +86,12 @@
 
 ### 数据包（必要）
 
+<div>
+    <a herf="https://github.com/MegaKylin/Seeker-Minecraft/releases" >
+        <img src="../icons/Seeker Minecraft Data Pack Icon.png" alt="[数据包图标]" >
+    </a>
+</div>
+
 #### 安装（二选一）
 
 2. 
@@ -98,6 +103,12 @@
 2. 选中需要更新数据包的世界，点击 `编辑` -> `打开世界文件夹` ，在打开的文件夹内打开 `datapacks` 文件夹，删除旧数据包并放入新数据包。
 
 ### 资源包（可选）
+
+<div>
+    <a herf="https://github.com/MegaKylin/Seeker-Minecraft/releases" >
+        <img src="../icons/Seeker Minecraft Resource Pack Icon.png" alt="[资源包图标]" >
+    </a>
+</div>
 
 #### 安装（二选一）
 
@@ -125,17 +136,18 @@
 
 * 对于新创建的世界，在创建世界时，请设置 `允许作弊：开` 。
 * 对于已创建的世界，如果已关闭作弊，请设置 `对局域网开放` -> `允许作弊：开` 。
+
 以上保证数据包菜单功能的正常使用。
 
 ### 音乐和声音
 
-* 音乐：关
-* 唱片机 / 音符盒：开
+* `音乐：关`
+* `唱片机 / 音符盒：开`
 
 ### 视频设置
 
-* 渲染距离：8个区块及以下
-* 云：关
+* `渲染距离：8个区块及以下`
+* `云：关`
 
 ### 资源包
 
@@ -169,6 +181,13 @@
 >             [ ] [D] [ ]
 >             [ ] [P] [ ]
 >             [ ] [G] [ ]
+>
+> <div align=center>
+>     <details>
+>         <summary>查看动图</summary>
+>         <img src="../imgs/tutorial/Seeker_Minecraft_Items_Recipe_Flare_I.gif" alt="[ “照明弹 I” 合成配方]" />
+>     </details>
+> </div>
 > 
 > * 使用：朝未探索区域右键点击以投掷。
 
@@ -180,6 +199,13 @@
 >             [D] [G] [D]
 >             [G] [F] [G]
 >             [D] [G] [D]
+> 
+> <div align=center>
+>     <details>
+>         <summary>查看动图</summary>
+>         <img src="../imgs/tutorial/Seeker_Minecraft_Items_Recipe_Flare_II.gif" alt="[ “照明弹 II” 合成配方]" />
+>     </details>
+> </div>
 > 
 > * 使用：朝未探索区域右键点击以投掷。
 
@@ -193,7 +219,14 @@
 >             [ ] [B] [ ]
 >             [ ] [G] [ ]
 > 
->     * 使用：对生物左键以将它们击退。
+> <div align=center>
+>     <details>
+>         <summary>查看动图</summary>
+>         <img src="../imgs/tutorial/Seeker_Minecraft_Items_Recipe_Knock_Back_Rod_I.gif" alt="[ “击退棒 I” 合成配方]" />
+>     </details>
+> </div>
+> 
+> * 使用：对生物左键以将它们击退。
 
 > #### 5. 击退棒 II
 > * 功能：以“较强”的力度击退生物。
@@ -203,6 +236,13 @@
 >             [T] [P] [T]
 >             [P] [K] [P]
 >             [T] [P] [T]
+> 
+> <div align=center>
+>     <details>
+>         <summary>查看动图</summary>
+>         <img src="../imgs/tutorial/Seeker_Minecraft_Items_Recipe_Knock_Back_Rod_II.gif" alt="[ “击退棒 II” 合成配方]" />
+>     </details>
+> </div>
 > 
 > * 使用：对生物左键以将它们击退。
 
@@ -215,11 +255,19 @@
 >             [S] [H] [S]
 >             [ ] [ ] [ ]
 > 
+> <div align=center>
+>     <details>
+>         <summary>查看动图</summary>
+>         <img src="../imgs/tutorial/Seeker_Minecraft_Items_Recipe_Far_View_Helmet_Diamond.gif" alt="[ “远视头盔（钻石）” 合成配方]" />
+>         <img src="../imgs/tutorial/Seeker_Minecraft_Items_Recipe_Far_View_Helmet_Netherite.gif" alt="[ “远视头盔（下界合金）” 合成配方]" />
+>     </details>
+> </div>
+> 
 > * 使用：戴上它以扩展你的视野范围。
 
 ### 特殊生物
 
-在探索者模式下探索时，你可能会遇到一些新朋友：悦灵。这些小家伙将帮助你一起探索世界。
+在探索者模式下探索时，你可能会遇到一些新朋友：*悦灵*。这些小家伙将帮助你一起探索世界。
 
 ### 其它
 
@@ -233,6 +281,7 @@
 如果你对这个数据包有什么好的想法和建议，欢迎前来交流讨论，有能力的小伙伴可以在Github上发起 “拉取请求” ，说不定你的创意在下一次更新就会被加入到数据包中。
 
 如果本数据包目前还不支持您所使用的语言，随时欢迎您前来贡献！< 3
+
 
 # 使用条款
 
