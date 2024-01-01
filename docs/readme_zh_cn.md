@@ -1,6 +1,6 @@
 <div align="center">
     <p>
-        <img width="256px" src="../icons/Seeker Minecraft Icon.png" alt="探索者生存介绍" />
+        <img src="../imgs/cover/Seeker Minecraft Cover x256.png" alt="探索者生存介绍" />
         <h2>探索者生存</h2>
         <p>高版本《我的世界》上的新“探索者”模式！支持 [1.18+]！ </p>
     </p>
@@ -88,7 +88,7 @@
 
 <div>
     <a href="https://github.com/MegaKylin/Seeker-Minecraft/releases" >
-        <img src="../icons/Seeker Minecraft Data Pack Icon.png" alt="[数据包图标]" >
+        <img src="../imgs/cover/Seeker Minecraft Data Pack Cover x64.png" alt="[数据包图标]" >
     </a>
 </div>
 
@@ -106,7 +106,7 @@
 
 <div>
     <a href="https://github.com/MegaKylin/Seeker-Minecraft/releases" >
-        <img src="../icons/Seeker Minecraft Resource Pack Icon.png" alt="[资源包图标]" >
+        <img src="../imgs/cover/Seeker Minecraft Resource Pack Cover x64.png" alt="[资源包图标]" >
     </a>
 </div>
 

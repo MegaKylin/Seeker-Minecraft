@@ -1,6 +1,6 @@
 <div align="center">
     <p>
-        <img width="256px" src="../icons/Seeker Minecraft Icon.png" alt="Seeker Minecraft Readme" />
+        <img src="../imgs/cover/Seeker Minecraft Cover x256.png" alt="Seeker Minecraft Readme" />
         <h2>Seeker Minecraft</h2>
         <p>The new "Seeker Minecraft" game mode that runs on recent versions of Minecraft! Available on [1.18+]!  </p>
     </p>
