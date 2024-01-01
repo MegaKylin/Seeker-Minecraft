@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Seeker Minecraft Datapack",
+        "description": "This is the datapack for "Seeker Minecraft". Please load it with "Seeker Minecraft Resource Pack"",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'MegaKylin'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
