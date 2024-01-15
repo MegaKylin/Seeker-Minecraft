@@ -1,0 +1,11 @@
+{
+    "type": "blasting",
+    "category":"misc",
+    "group": "gold",
+    "ingredient": {
+        "tag": "seeker:golden_items"
+    },
+    "cookingtime": 600,
+    "result": "minecraft:gold_ingot",
+    "experience": 20
+}

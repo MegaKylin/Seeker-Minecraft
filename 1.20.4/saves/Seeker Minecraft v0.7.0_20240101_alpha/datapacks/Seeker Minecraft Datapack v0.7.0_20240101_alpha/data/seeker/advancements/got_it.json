@@ -1,0 +1,23 @@
+{
+    "parent": "seeker:root",
+    "display": {
+        "title": "GOT IT! ",
+        "description": "Read \"Rules & Tutorials\"",
+        "frame": "task",
+        "icon": {
+            "item": "minecraft:knowledge_book"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "open_rules_and_tutorials": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": ["seeker:starter_pack"],
+        "experience": 50
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "title": "Seeker Minecraft",
+        "description": "Seeker Minecraft Advancement System",
+        "frame": "goal",
+        "icon": {
+            "item": "minecraft:spyglass"
+        },
+        "background": "minecraft:textures/block/red_concrete.png",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+        
+    },
+    "criteria": {
+        "reset": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

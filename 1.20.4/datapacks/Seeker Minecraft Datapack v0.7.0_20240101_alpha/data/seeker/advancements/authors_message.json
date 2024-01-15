@@ -1,0 +1,20 @@
+{
+    "parent": "seeker:root",
+    "display": {
+        "title": "Author's Message",
+        "description": "Thank you for playing this data pack! \nPlease read \"Rules & Tuturials\" first! \nHave fun! ",
+        "frame": "goal",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: \"MegaKylin\"}"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "open_main_menu": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

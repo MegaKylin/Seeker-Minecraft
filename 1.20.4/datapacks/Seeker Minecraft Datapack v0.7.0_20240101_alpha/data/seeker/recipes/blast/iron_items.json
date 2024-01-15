@@ -1,0 +1,11 @@
+{
+    "type": "blasting",
+    "category":"misc",
+    "group": "iron",
+    "ingredient": {
+        "tag": "seeker:iron_items"
+    },
+    "cookingtime": 400,
+    "result": "minecraft:iron_ingot",
+    "experience": 10
+}
